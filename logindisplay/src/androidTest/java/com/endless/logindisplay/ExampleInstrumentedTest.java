@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.endless.logindisplay", appContext.getPackageName());
+        assertEquals("com.endless.logindisplay.test", appContext.getPackageName());
     }
 }
