@@ -2,6 +2,7 @@ package com.endless.serviceproviderinterface;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import com.endless.aninterface.Display;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         ServiceLoader<Display> loader = ServiceLoader.load(Display.class);
         Iterator<Display> iterator = loader.iterator();
         while (iterator.hasNext()) {
-            iterator.next().display();
+            Log.e("test", iterator.next().display());
         }
     }
 }
