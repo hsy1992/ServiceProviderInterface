@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ServiceProviderInterface.iml" filepath="$PROJECT_DIR$/ServiceProviderInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logindisplay/logindisplay.iml" filepath="$PROJECT_DIR$/logindisplay/logindisplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedisplay/sharedisplay.iml" filepath="$PROJECT_DIR$/sharedisplay/sharedisplay.iml" />
     </modules>
   </component>
 </project>
